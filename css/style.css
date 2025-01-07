@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --c12: #000000;
+  --c11: #141414;
+  --c10: #212121;
+  --c9: #272727;
+  --c8: #464646;
+  --c7: #606060;
+  --c6: #7d7d7d;
+  --c5: #949494;
+  --c4: #aeaeae;
+  --c3: #c8c8c8;
+  --c2: #e0e0e0;
+  --c1: #f7f7f7;
+  --w: #ffffff;
+  --p5: #331f01;
+  --p4: #714a03;
+  --p3: #a66f00;
+  --p2: #e7a50c;
+  --p1: #ffbb00;
+  --primary-font: "Poppins";
+  --second-font: "Roboto";
+}
+
+body {
+  font-family: var(--primary-font);
+  background: #000;
+  color: var(--w);
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  background-color: var(--c12);
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  color: var(--w);
+  font-size: 18px;
+}
